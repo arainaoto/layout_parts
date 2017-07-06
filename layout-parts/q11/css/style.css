@@ -50,6 +50,6 @@
     0% { transform: rotate(0deg);   opacity: 0.2; } /*0%の時は20％の透明度*/
     50%  { transform: rotate(180deg); opacity: 1.0; } /*50%の時は透明度なし*/
     100%   { transform: rotate(360deg); opacity: 0.2; } /*100%の時に20％の透明度に戻る*/
-
+/*透明度で点滅させたりできる*/
 }
 /* 回答はここに書いてね */
