@@ -3,21 +3,18 @@
 /* 回答はここに書いてね */
 
 .balloon {
-    position: relative;
-    width: 500px;
-    padding: 20px;
-    margin: 0 auto;
-    border: 5px solid #222;
-    border-radius: 30px;
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 30px;
 }
 
 .balloon:before {
-  border-top-width: 16px;
-  border-right-width: 16px;
-  border-bottom-width: 0;
-  border-left-width: 16px;
+  border: 16px solid;
+  border-bottom: 0;
   border-color: #222 transparent;
-  border-style: solid;
   display: block;
   position: absolute;
   bottom: -16px;
@@ -28,12 +25,9 @@
 }
 
 .balloon:after {
-  border-top-width: 16px;
-  border-right-width: 16px;
-  border-bottom-width: 0;
-  border-left-width: 16px;
+  border: 16px solid;
+  border-bottom: 0;
   border-color: #fff transparent;
-  border-style: solid;
   display: block;
   position: absolute;
   bottom: -10px;

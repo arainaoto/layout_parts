@@ -7,19 +7,19 @@
   width: 100%;
 }
 .table th {
-    padding: 10px;
-    background-color: #24a;
-    border: 1px solid #dedede;
-    color: #fff;
-    font-size: 18px;
-    line-height: 26px;
+  padding: 10px;
+  background-color: #24a;
+  border: 1px solid #dedede;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
 }
 .table td {
-    padding: 10px;
-    border: 1px solid #dedede;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
+  padding: 10px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }
 
 table > tbody > tr:last-child { border-top: 2px dashed #000; }

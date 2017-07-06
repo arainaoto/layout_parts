@@ -8,29 +8,36 @@
     background-color: #ECF1F2;
     box-sizing: border-box;
 }
+
 .box_cell {
     display: table-cell;
     padding: 20px;
     text-align: center;
 }
-.box_cell.is-1 {
+
+.box_cell.is-pink {
     width: 100px;
     background-color: #FDC8B8;
 }
-.box_cell.is-2 {
+
+.box_cell.is-purple {
     background-color: #E0ABD9;
 }
-.box_cell.is-3 {
+
+.box_cell.is-blue {
     width: 100px;
     background-color: #B6D8ED;
 }
-.box_cell.is-4 {
+
+.box_cell.is-yellow {
     background-color: #E5D32E;
 }
-.box_cell.is-5 {
+
+.box_cell.is-canaria {
     background-color: #E4E67C;
 }
-.box_cell.is-6 {
+
+.box_cell.is-green {
     width: 500px;
     background-color: #8FDCAD;
 }
